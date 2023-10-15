@@ -20,6 +20,13 @@ gsap.to('.today, .heroDes', {
     yoyo: true, // Reverse the animation
   });
 
+
+  gsap.to('.mob', {
+    duration: 1,
+    y: -50,
+    repeat: -1, // Repeat indefinitely
+    yoyo: true, // Reverse the animation
+  });
  
 
 let click = document.querySelector(".schedule-click");

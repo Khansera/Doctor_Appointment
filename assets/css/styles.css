@@ -738,4 +738,18 @@ html, body{
     .display {
         display: none;
     }
+    .mob{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 1344px){
+    .mob {
+        display: none;
+    }
+
   }
